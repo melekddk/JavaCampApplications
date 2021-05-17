@@ -1,0 +1,12 @@
+package abstractClasses;
+
+public abstract class GameCalculator {
+	public  void hesapla() {
+		System.out.println("Puanýnýz : 100");
+	}
+	
+	public void gameOver() {
+		System.out.println("Oyun Bitti.");
+	}
+
+}
